@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Flash</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav id="navbar">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Inhalt.html">Inhalt</a></li>
+					<li><a href="Impressum.html">Impressum</a></li>
+					<li>
+						<ul class="networkLaenge">
+							<li>
+								<a href="https://de-de.facebook.com/CWTheFlash/" class="network" id="fb"><img src="Bilder/Network/fb.png" class="network2"></a>
+							</li>
+						</ul>
+						<ul class="networkLaenge">
+							<li>
+								<a href="https://twitter.com/cw_theflash?lang=de" class="network" id="tw"><img src="Bilder/Network/tw.png" class="network2"></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<img src="Bilder/bg/Chronik2.jpg" class="chronik">
+		<img src="Bilder/hello.png" class="dc">
+		<h1 class="titel"><p class="the">The</p>_________________</br>Flash</h1>
+		<p class="titel2">HOME</p>
+		<h1 class="bg2Home">.</h1>
+			
+		<div class="bgi">
+			<div>
+				<div class="ueberschrift">Helden</div>	
+				<hr>
+			</div>
+			<span class="merk">Auf Bild klicken, um mehr zu erfahren!</span>
+			<div class="wrapper">
+				<div class="flex-container">
+				 	<div class="box">
+				 		<h2 class="h2">Grant Gustin</h2>
+				 		<img src="Bilder/Barry.png" class="Schauspieler" id="flip1">
+				 		<img src="Bilder/Flash.png" class="drehbild1" id="Kostuem">
+						<p id="panel1" style="display:none" class="info">aka<br/>Barry Allen /<br/>The Flash</p>
+				 	</div>
+				 	<div class="box">
+				 		<h2 class="h2">Danielle Panabaker</h2>
+				 		<img src="Bilder/Snow.jpg" class="Schauspieler" id="flip2">
+				 		<img src="Bilder/KillerFrost.png" class="drehbild2" id="Kostuem">
+						<p id="panel2" style="display:none" class="info">aka<br/>Dr. Caitlin Snow /<br/>Killer Frost </p>
+					</div>
+				 	<div class="box">
+				 		<h2 class="h2">Carlos Valdes</h2>
+				 		<img src="Bilder/Cisco.jpg" class="Schauspieler" id="flip3">
+				 		<img src="Bilder/Vibe.png" class="drehbild3" id="Kostuem">
+						<p id="panel3" style="display:none" class="info">aka<br/>Cisco Ramon /<br/>Vibe / Reverb </p>
+				 	</div>
+				</div>
+			</div>
+			<div>
+				<marquee direction="right" scrollamount="25" scrolldelay="1">
+					<img src="Bilder/running.gif" class="running">
+				</marquee>
+			</div>
+		</div>
+		<div class="bg1Home"></div>
+		<div class="wrapperSchurke">
+			<div class="bg2">
+				<div class="ueberschrift">Schurken / End-Boss</div>
+				<hr>
+				<div class="bgText" id="bg2Text"></div>
+				<div class="SchurkenPaket">
+					<div class="SchurkenTeilung">
+						<p class="SchurkeName" id="ReverseflashName">Reverseflash</p>
+						<img src="Bilder/Schurken/Reverseflash1.jpg" class="Schurke" id="Reverseflash"/>
+					</div>
+					<div class="SchurkenTeilung">
+						<img src="Bilder/Schurken/Zoom1.jpg" class="Schurke2" id="Zoom"/>
+						<p class="SchurkeName2" id="ZoomName">Zoom</p>
+					</div>
+					<div class="SchurkenTeilung">
+						<p class="SchurkeName" id="SavitarName">Savitar</p>
+						<img src="Bilder/Schurken/Savitar1.jpg" class="Schurke" id="Savitar"/>
+					</div>
+				</div>
+				<div class="schwebenderHome"></div> 
+			</div>
+		</div>
+			
+		<audio id="audio_with_controls"></audio>
+
+
+
+		<div class="teaserbg"></div>
+		<img src="Bilder/schliessen.png" class="close"/>
+		<video src="Bilder/Trailer.mp4" controls="controls" poster="Bilder/bg/Chronik8.jpg" class="teaser"/>
+		<script src="myScript.js"></script>
+	</body>
+</html>

@@ -1,0 +1,483 @@
+html{
+	font-family: arial;
+}
+
+body{
+	padding-top: 100px;
+}
+
+header{
+	position: fixed;
+	width: 100%;
+	z-index: 7;
+}
+
+nav ul{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+}
+
+nav a{
+	background-color: #330000;
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+	display: block;
+	padding: 16px;
+	font-weight: 600;
+}
+
+nav a:hover{
+	background-color: #b37400;
+}
+
+nav li{
+	flex: 1 1 0;
+	color: #000000;
+}
+
+video{
+	border: 0px none; 
+	width: 70%; 
+	top: 15%; 
+	left: 15%;
+	position: fixed;
+	z-index: 6;
+}
+
+button{
+	background-color: #ffffff;
+}
+
+#navbar{
+	background-color: #330000;
+}
+
+#ReverseflashName{
+	color: red;
+	background-color: yellow;
+	border: 2px solid #000000;
+}
+
+#Zoom{
+	margin-top: 23%;
+}
+
+#ZoomName{
+	margin-top: 30.5%;
+	color: lightblue;
+	background-color: #003399;
+	border: 2px solid #000000;
+}
+
+#Savitar{
+	margin-top: 46%;
+}
+
+#SavitarName{
+	margin-top: 53.5%;
+	color: #ffffff;
+	background-color: #00004d;
+	border: 2px solid #000000;
+}
+
+.network{
+	padding: 0.5px;
+}
+
+.network2{
+	height: 20px;
+}
+
+.networkLaenge{
+	width: 10px;
+	position: relative;
+	margin-left: 80%;
+}
+
+#fb{
+	margin-right: 100px;
+}
+
+#tw{
+
+}
+
+.info, .Schauspieler, .flex-container, .titel2, .wrapper, #Kostuem, .Schurke, .Schurke2, .SchurkeName, .SchurkeName2, .chronik{
+    box-shadow: 0 0 15px 0 rgba(5, 5, 5, 0.5);
+}
+
+#navbar, .bgText{
+    box-shadow: 0 0 20px 0 rgba(5, 5, 5, 0.8);
+}
+
+.teaserbg{
+	border: 0px none; 
+	top: 1%;
+	height: 100%;
+	width: 100%; 
+	position: fixed;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 5;
+}
+
+.info{
+	background-color: #ffa600;
+	top: -50px;
+}
+
+.info, .h2{
+	font-size: 100%;
+}
+
+.chronik{
+	width: 100%;
+}
+
+.titel2{
+	z-index: 4;
+	color: white;
+	margin-top: 10%;
+	font-size: 100px;
+	margin-bottom: -16%;
+	background-color: #330000;
+}
+
+.h2{
+	text-align: center;
+}
+
+.flex-container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.wrapper{
+	width: 95%;
+	background-color: #cccccc;
+	margin-top: 1%;
+	margin-left: 2.5%;
+	z-index: 3;
+}
+
+.box{
+	height: 100px;
+	width: 15%;
+	background-color: #cc8500;
+}
+
+.drehbild1, .drehbild2, .drehbild3 {
+	height: auto;
+	width: 100%;
+	border-collapse: separate;
+	border-radius: 100pt;
+	position: relative;
+	display: none;
+	margin-top: -100%;
+}
+
+.Schauspieler{
+	height: auto;
+	width: 100%;
+	border-collapse: separate;
+	border-radius: 100pt;
+	position: relative;
+}
+
+.wrapper p{
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.dc{
+	width: 5%;
+	float: left;
+	position: relative;
+	margin-top: -33%;
+	margin-left: 2%;
+}
+
+.close{
+	border: 0px none; 
+	width: 3%; 
+	top: 11%; 
+	left: 12%;
+	position: fixed;
+	background-color: white;
+	border-collapse: separate;
+	border-radius: 100pt;
+	opacity: 0.8;
+}
+
+.titel{
+	margin-top: -25%;
+	font-size: 40px;
+	color: #ffffff;
+	position: relative;
+	text-align: center;
+	font-weight: 100;
+}
+
+.the{
+	margin-bottom: -40px;
+}
+
+.merk{
+	position: relative;
+}
+
+.bg1Home, .bg2Home{
+	background-image: url(../Bilder/bg/Logo3.jpg);
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+.bg1Home{
+	height: 250px;
+}
+
+.bg2Home{
+	margin-top: 17%;
+	font-size: 40px;
+	color: transparent;
+}
+
+.bg2{
+	background-image: url(../Bilder/bg/Villains1.jpg);
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#bg2Text, .schwebenderHome{
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+#bg2Text{
+	background-color: #ffffff;
+	opacity: 0.9;
+	position: absolute;
+	height: 130%;
+}
+
+.running{
+	margin-top: 15%;
+	width: 100px;
+	position: relative;
+}
+
+.ueberschrift{
+	font-size: 50px;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.Schurke{
+	margin-left: 18%;
+	width: 20%;
+	position: absolute;
+}
+
+.Schurke2{
+	margin-left: 64%;
+	float: right;
+	width: 20%;
+	position: absolute;
+}
+
+.SchurkeName{
+	display: none;
+	position: absolute;
+	margin-top: 7.5%;
+	margin-left: 30%;
+	font-size: 40px;
+}
+
+.SchurkeName2{
+	display: none;
+	float: right;
+	position: absolute;
+	margin-top: 7.5%;
+	margin-left: 60%;
+	font-size: 40px;
+}
+
+.SchurkenTeilung{
+	position: relative;
+	margin-bottom: 2%;
+}
+
+.SchurkenPaket{
+	margin-top: 5%;
+}
+
+
+
+
+//Inhalt
+.Inhalt{
+	display: none;
+	position: absolute;
+	font-size: 40px;
+}
+
+.bg1Inhalt{
+	height: 250px;
+}
+
+.bg1Inhalt, .bg2Inhalt{
+	background-image: url(../Bilder/bg/Logo.png);
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+.bg2Inhalt{
+	margin-top: 17%;
+	font-size: 40px;
+	color: transparent;
+}
+
+.InhaltTeilung{
+	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2.5%;
+}
+
+.bg3{
+	background-image: url(../Bilder/bg/Inhalt3.jpg);
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#bg3Text, .schwebenderInhalt{
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.schwebenderInhalt{
+	height: 100px;
+}
+
+#bg3Text{
+	background-color: #ffffff;
+	opacity: 0.9;
+	position: absolute;
+	height: 1200px;
+}
+
+.boxInhalt{
+	margin: 5%;
+}
+
+.Spoiler{
+	display: none;
+	position: absolute;
+	font-size: 250px;
+	text-align: center;
+}
+
+.wrapperInhalt .info{
+	background-color: lightblue;
+    width: 55%;
+    height: 110px;
+    overflow: scroll;
+}
+
+.Inhalt p{
+	background-color: darkred;
+	color: white;
+	width: 75%;
+	text-align: center;
+	margin-left: 12.5%;
+}
+
+.Staffel{
+	font-size: 30px;
+}
+
+.Inhalt hr{
+	width: 50%;
+}
+
+#panel2Inhalt, #panel4Inhalt{
+	margin-left: 45%;
+}
+
+#S1, #S3{
+	text-align: right;
+	margin-right: 50%;
+}
+
+#S2, #S4{
+	margin-left: 50%;
+}
+
+
+
+
+//Impressum
+.Impressum{
+	display: none;
+	position: absolute;
+	font-size: 40px;
+}
+
+.blinken{
+	width: 5.5%;
+	float: right;
+	position: relative;
+	margin-top: -33%;
+	margin-right: 20%;
+}
+
+.bg1Impressum, .bg2Impressum{
+	background-image: url(../Bilder/bg/Logo2.jpg);
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+.bg1Impressum{
+	height: 250px;
+}
+
+.bg2Impressum{
+	margin-top: 17%;
+	font-size: 40px;
+	color: transparent;
+}
+
+.ImpressumTeilung{
+	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2.5%;
+}
+
+.bg4{
+	background-image: url(../Bilder/bg/Inhalt2.jpg);
+	background-attachment: fixed;
+	background-size: 100% auto;
+}
+
+#bg4Text, .schwebendesImpressum{
+	width: 95%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.schwebendesImpressum{
+	height: 100px;
+}
+
+#bg4Text{
+	background-color: #ffffff;
+	opacity: 0.9;
+	position: absolute;
+	height: 900px;
+}
